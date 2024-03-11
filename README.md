@@ -1,6 +1,6 @@
 # Go Web Application Development Guide
 
-This guide covers essential topics for building performant and professional Go web applications.
+En este repositorio voy a abordar la creación de una aplicación rápida, segura, y mantenible siguiendo el libro Let's Go! 
 
 1. **Server Fundamentals**
     - Starting a server, creating handlers, sending responses, routing requests, and serving static files.
