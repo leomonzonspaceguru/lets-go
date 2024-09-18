@@ -17,7 +17,7 @@ func snippetCreate(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/", home)
-	http.HandleFunc("/snippet/view", snippetView)
+	http.HandleFunc("/snippet/view/{id}", snippetView)
 	http.HandleFunc("/snippet/create", snippetCreate)
 
 	log.Print("El server corre on :4000")
